@@ -1,0 +1,14 @@
+package br.com.revisao.heranca_e_polimorfismo.revisao3;
+
+public class Main {
+    static void main(String[] args) {
+        System.out.println("Gerenciamento de biblioteca");
+        Livro livro = new Livro("O Guia do Mochileiro das Galáxias", 1979, "Douglas Adams");
+        Revista revista = new Revista("National Geographic", 2023, 245);
+        Ebook ebook = new Ebook("Clean Code", 2008, "PDF");
+
+        livro.exibirInfo();
+        revista.exibirInfo();
+        ebook.exibirInfo();
+    }
+}
